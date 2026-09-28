@@ -5,11 +5,11 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", ""))
-    API_HASH = environ.get("API_HASH", "")
+    API_ID = int(environ.get("API_ID", "36467407"))
+    API_HASH = environ.get("API_HASH", "3be6c6bf2117c86e4706707e9fe099c6")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
-    DATABASE_URI = environ.get("DATABASE_URI", "")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://suwonavexi49_db_user:jE77JmtgxTZlxBxE@cluster0.jq53ooi.mongodb.net")
     DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
     BOT_OWNER = int(environ.get("BOT_OWNER", ""))
 
